@@ -7,10 +7,10 @@ equipment pinger for Hydra billing
 - Oracle instant client
 
 Библиотеки:
-	- boost-thread
-	- boost-program-options
-	- config
-	- oping
+- boost-thread
+- boost-program-options
+- config
+- oping
 
 Установка на примере debian:
 
