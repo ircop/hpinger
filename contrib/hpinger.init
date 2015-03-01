@@ -1,0 +1,24 @@
+#!/sbin/runscript
+
+depend() {
+        need net
+}
+
+start() {
+        ebegin "Starting pinger daemon"
+	/usr/bin/hpinger -d -w 128
+        eend
+}
+
+stop() {
+        ebegin "Stopping pinger daemon"
+	kill `cat /var/run/hpinger.pid`
+        eend $?
+}
+
+restart() {
+        svc_stop
+        sleep 2
+        svc_start
+}
+
