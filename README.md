@@ -20,6 +20,7 @@ equipment pinger for Hydra billing
 - aptitude install libconfig++-dev
 - aptitude install liboping-dev
 
+~~~
 git clone https://github.com/ircop/hpinger.git
 cd hpinger
 mkdir build && cd build
@@ -27,7 +28,7 @@ cmake ..
 make
 cp hpinger /usr/bin/hpinger
 cp ../contrib/hpinger.conf /etc/
-
+~~~
 ../contrib/hpinger.init - init-скрипт для gentoo. Для debian'а сами готовьте. Инстантклиент тоже сами ставьте :)
 
 
