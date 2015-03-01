@@ -14,11 +14,11 @@ equipment pinger for Hydra billing
 
 Установка на примере debian:
 
-aptitude install libboost-dev
-aptitude install libboost-program-options-dev
-aptitude install libboost-thread-dev
-aptitude install libconfig++-dev
-aptitude install liboping-dev
+- aptitude install libboost-dev
+- aptitude install libboost-program-options-dev
+- aptitude install libboost-thread-dev
+- aptitude install libconfig++-dev
+- aptitude install liboping-dev
 
 git clone https://github.com/ircop/hpinger.git
 cd hpinger
