@@ -5,6 +5,7 @@ equipment pinger for Hydra billing
 
 Требования:
 - Oracle instant client
+
 Библиотеки:
 	- boost-thread
 	- boost-program-options
