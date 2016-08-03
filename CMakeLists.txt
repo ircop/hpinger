@@ -6,7 +6,8 @@ set(hpinger_VERSION_MINOR 0)
 
 set(BOOST_COMPONENTS
 	thread
-	program_options)
+	program_options
+	system)
 
 include(FindOracle.cmake)
 include(FindLibConfig.cmake)
